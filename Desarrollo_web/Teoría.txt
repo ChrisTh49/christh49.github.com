@@ -1,0 +1,9 @@
+Una página web se compone de varios elementos, HTML, CSS, y JavaScript, y los assets, que contienen las imagenes, videos, etc...
+
+HTML es un lenguaje de marcado de HyperText (Hyper significa que no existe un orden lineal para moverte entre links), estos se utilizan para traducirle a la pc cómo debe entender los textos, botones etc, existen 2, HTML y XML.
+
+self-closing tags son las etiquetas que se cierran solas por ejemplo <img />
+
+CSS o Hojas de estilo en cascadas, estos se encargan de darle un diseño a nuestras páginas, existen hojas de estilos predefinidas, estas se len llaman frameworks de CSS
+
+Los metadatos son los datos que definen otros datos
