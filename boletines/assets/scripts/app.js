@@ -60,7 +60,7 @@ links.forEach(function(link){
 
         //Colocarle un TimeOut
         setTimeout(function(){
-            location.href = "/";
+            location.href = "/boletines";
         }, 600);
     });
 });
