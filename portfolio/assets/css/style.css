@@ -158,55 +158,9 @@ a{
     padding-top: 2%;
 }
 
-.links_about_me{
+.title_about_me{
     position: relative;
-    top: 77vh;
-}
-
-.home{
-    display: block;
-    max-width: 2vw;
-    margin: 0px;
-    position: relative;
-    bottom: 1vh;
-    left: 2vw;
-    color: white;
-    font-weight: bold;
-    font-family: 'aileronbold';
-    text-transform: uppercase;
-    font-size: 18px;
-}
-
-.about_me_projects{
-    display: block;
-    max-width: 2vw;
-    margin: 0px;
-    position: relative;
-    bottom: 1vh;
-    left: 2vw;
-    color: white;
-    font-weight: bold;
-    font-family: 'aileronbold';
-    text-transform: uppercase;
-    font-size: 18px;
-}
-
-.about_me_contact{
-    display: block;
-    max-width: 2vw;
-    margin: 0px;
-    position: relative;
-    bottom: 1vh;
-    left: 2vw;
-    color: white;
-    font-weight: bold;
-    font-family: 'aileronbold';
-    text-transform: uppercase;
-    font-size: 18px;
-}
-
-.title_about_me p:hover{
-    color:  #dd4444;
+    top: 17vh;
 }
 
 .title_about_me h2{
@@ -246,7 +200,7 @@ a{
     padding-bottom: 3%;
     border-radius: 10px;
     position: relative;
-    bottom: 14vh;
+    bottom: 0vh;
     left: 15vw;
 }
 
@@ -264,7 +218,7 @@ a{
 
 .skills{
     position: relative;
-    bottom: 16vh;
+    bottom: 3vh;
     max-width: 50vw;
     max-height: 29vh;
 }
@@ -319,9 +273,33 @@ a{
 
 .skills_names_1{
     display: flex;
-    max-width: 50vw;
+    max-height: 20vh;
+    max-width: 60vw;
     justify-content: space-evenly;
     position: relative;
-    bottom: 20vh;
-    left: 25vw;
+    bottom: 6vh;
+    left: 24.5vw;
+}
+
+.links_about_me{
+    position: relative;
+    text-align: center;
+    top: 8vh;
+    font-size: 24px;
+    left: 20vw;
+}
+
+.links_about_me a{
+    display: block;
+    padding-bottom: 7px;
+}
+
+.links_about_me a:hover{
+    color: #dd4444;
+}
+
+/*PROJECTS*/
+
+.projects-content{
+    text-align: center;
 }
