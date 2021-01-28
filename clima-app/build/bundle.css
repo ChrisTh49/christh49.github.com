@@ -4,6 +4,7 @@ body{
 
 .title{
     text-align: center;
+    font-style: italic;
     color: #f6f5f5;
 }
 
@@ -21,5 +22,10 @@ body{
 
 .info{
     position: relative;
+    top: 20vh;
     left: 10vw;
+}
+
+.no-req{
+    text-align: center;
 }

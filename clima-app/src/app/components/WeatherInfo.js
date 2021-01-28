@@ -22,7 +22,7 @@ const WeatherInfo = (props) => {
         </div>
         :
         <div className='card card-body'>
-          <p>No request yet</p>
+          <p className="no-req">No request yet</p>
         </div>
       }
     </div>
