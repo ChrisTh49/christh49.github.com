@@ -432,7 +432,22 @@ a{
     font-size: 5em;
     list-style: none;
     padding-right: 3em;
-    left: 2em;
+    left: 1.5em;
+}
+
+.email_link span{
+    position: relative;
+    right: 6vw;
+}
+
+.phone_link{
+    position: relative;
+    right: 10vw;
+}
+
+.phone_link span{
+    position: relative;
+    right: 4.5vw;
 }
 
 .ig{
@@ -460,8 +475,8 @@ a{
     position: relative;
     text-align: center;
     font-size: 25px;
-    top: 38vh;
-    left: 3vw;
+    top: 36vh;
+    right: 18vw;
 }
 
 .links_contacts a{
