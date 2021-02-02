@@ -226,6 +226,7 @@ a{
 .skills h2{
     position: relative;
     left: 25.4vw;
+    text-transform: uppercase;
 }
 
 .skills hr{
@@ -300,6 +301,174 @@ a{
 
 /*PROJECTS*/
 
+.projects-header{
+    padding-top: 10px;
+}
+
+.projects-header hr{
+    color: #ffd736;
+    margin: 0px;
+    width: 12vw;
+    position: relative;
+    left: 40%;
+    bottom: 0vh;
+}
+
+.project-title{
+    font-family: 'aileronbold';
+    color: white;
+    margin: 0px;
+    position: relative;
+    left: 40vw;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
 .projects-content{
+    margin-top: 20px;
+    display: block;
+}
+
+.projects-card{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 7vw;
+    top: 3vh;
+}
+
+.projects-card img{
+    border: none;
+    width: 60%;
+    height: 70vh;
+}
+
+.projects-text{
+    position: absolute;
+    max-width: 20vw;
+    color: #292929;
+    left: 73vw;
+    background: #ffd736;
+    height: 100vh;
+    text-align: left;
+    top: -12vh;
+    font-weight: bold;
+    max-height: 100vh;
+}
+
+.projects-text p{
+    font-size: 18px;
     text-align: center;
+    position: relative;
+    top: 25vh;
+}
+
+.projects-text hr{
+    color: #dd4444;
+    margin: 0px;
+    position: relative;
+    top: 23vh;
+}
+
+.projects-text ul{
+    list-style: none;
+    position: relative;
+    top: 27vh;
+}
+
+.projects-text li {
+    margin-top: 10px;
+    position: relative;
+    right: 33px;
+    font-size: 17px;
+}
+
+.projects-text i{
+    color: #dd4444;
+    font-size: 20px;
+}
+
+.links_projects{
+    position: relative;
+    text-align: center;
+    top: 40vh;
+    font-size: 25px;
+    left: 7vw;
+}
+
+.links_projects i{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.links_projects a{
+    display: block;
+}
+
+/*CONTACTS*/
+
+.contacts{
+    max-width: 100vw;
+    max-height: 100vh;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contacts ul{
+    display: flex;
+}
+
+.contacts span{
+    display: block;
+    font-size: 25px;
+    text-align: center;
+}
+
+.contacts li{
+    position: relative;
+    font-size: 5em;
+    list-style: none;
+    padding-right: 3em;
+    left: 2em;
+}
+
+.ig{
+    position: relative;
+    left: 22px;
+}
+
+.github:hover{
+    color: #540aca;
+}
+
+.ig:hover{
+    color: #ff5e78;
+}
+
+.email:hover{
+    color: #9088d4;
+}
+
+.phone:hover{
+    color: #ffd736;
+}
+
+.links_contacts{
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+    top: 38vh;
+    left: 3vw;
+}
+
+.links_contacts a{
+    display: block;
+    padding-bottom: 10px;
+}
+
+.links_contacts a:hover{
+    color: #dd4444;
 }
